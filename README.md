@@ -11,9 +11,11 @@ El objetivo principal es reemplazar las tradicionales libretas de papel por una 
 
 ## 📸 Capturas
 
-[Pantalla de Inicio]
+**Pantalla de Inicio**
 <img src="./screenshots/home.png">
 
+**Pantalla de Crear/Editar Rutina**
+<img src="./screenshots/crear.png">
 
 ## 🚀 Características Principales
 
