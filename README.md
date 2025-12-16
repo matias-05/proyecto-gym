@@ -10,8 +10,9 @@
 El objetivo principal es reemplazar las tradicionales libretas de papel por una solución digital responsive, accesible tanto desde computadoras de escritorio como desde dispositivos móviles.
 
 ## 📸 Capturas
-    [Pantalla de Inicio]
-    <img src="./screenshots/home.png">
+
+[Pantalla de Inicio]
+<img src="./screenshots/home.png">
 
 
 ## 🚀 Características Principales
