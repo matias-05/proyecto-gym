@@ -71,7 +71,7 @@ cd backend
 python -m venv venv
 
 # Activar entorno virtual
-# En Git Bash
+# En Git Bash:
 source venv/Scripts/activate
 # En Windows:
 venv\Scripts\activate
