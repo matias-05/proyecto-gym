@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { 
-  Container, Grid, Typography, CircularProgress, Alert, Box, TextField, InputAdornment, Paper // <--- Agregamos Paper
+  Container, Grid, Typography, CircularProgress, Alert, Box, TextField, InputAdornment, Paper
 } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search'; 
 import client from '../api/axios';

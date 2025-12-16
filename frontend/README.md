@@ -1,16 +1,77 @@
-# React + Vite
+# Gym Manager - Sistema de Gestión de Rutinas **(Frontend)**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Proyecto Final - Cátedra Programación IV**
+> Universidad Tecnológica Nacional (UTN)
 
-Currently, two official plugins are available:
+## 📋 Descripción del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este directorio contiene el código fuente de la **Interfaz de Usuario (SPA)** del proyecto Gym Manager. 
+Está construida utilizando **React** bajo el entorno de desarrollo **Vite**, lo que garantiza una experiencia rápida y optimizada.
 
-## React Compiler
+El diseño visual se apoya en **Material UI (MUI)** para ofrecer una estética moderna, limpia y **totalmente responsive**, asegurando que la gestión de rutinas sea cómoda tanto en dispositivos móviles (modo app) como en escritorio.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Características de la Interfaz
 
-## Expanding the ESLint configuration
+* **SPA (Single Page Application):** Navegación fluida sin recargas de página gracias a *React Router*.
+* **Diseño Adaptable (Responsive):**
+    * Menú de navegación optimizado (Barra superior en PC / Adaptación móvil).
+    * Formularios inteligentes que aprovechan el ancho de pantalla.
+    * Grillas dinámicas para visualizar tarjetas de rutinas.
+* **Feedback Visual:**
+    * Indicadores de carga (Spinners).
+    * Alertas de error y éxito.
+    * Validaciones de formulario en tiempo real antes de enviar datos al servidor.
+* **Conexión API:** Comunicación asíncrona con el backend mediante *Axios*.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías y Librerías
+
+Este proyecto utiliza las siguientes dependencias principales:
+
+* **Core:** `React`, `React DOM`.
+* **Build Tool:** `Vite`.
+* **UI Framework:** `@mui/material`, `@emotion/react`, `@emotion/styled`.
+* **Iconos:** `@mui/icons-material`.
+* **Navegación:** `react-router-dom`.
+* **Peticiones HTTP:** `axios`.
+
+## 📸 Capturas de Pantalla
+
+
+| Vista de Escritorio | Vista Móvil |
+|:---:|:---:|
+| ![Desktop](../screenshots/home.png) | ![Mobile](../screenshots/home-mb.png) |
+
+> *Nota: Las imágenes son ilustrativas del diseño responsive.*
+
+## 🔧 Instalación y Ejecución
+
+Sigue estos pasos para levantar el entorno de desarrollo del frontend.
+
+### Prerrequisitos
+* Tener **Node.js** instalado (versión 16 o superior recomendada).
+* Tener el **Backend** de Gym Manager corriendo (por defecto en el puerto 8000).
+
+### Pasos
+
+1.  **Instalar dependencias:**
+    Descarga todas las librerías necesarias listadas en `package.json`.
+    ```bash
+    npm install
+    ```
+
+2.  **Iniciar el servidor de desarrollo:**
+    Levanta la aplicación en modo local con recarga rápida (HMR).
+    ```bash
+    npm run dev
+    ```
+
+3.  **Acceder a la aplicación:**
+    Por lo general, Vite iniciará la aplicación en:
+    > http://localhost:5173
+
+## 📂 Estructura del Proyecto
+
+* `/src/api`: Configuración de Axios y endpoints.
+* `/src/components`: Componentes reutilizables (Navbar, Cards).
+* `/src/pages`: Vistas principales (Home, Crear Rutina, Editar Rutina).
+* `/public`: Recursos estáticos (Logos, imágenes).
